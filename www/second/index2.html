@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title>2016上商学子年度颁奖</title>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1" />
+   <link href="http://libs.baidu.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet">
+   <script src="http://www.jq22.com/jquery/2.1.1/jquery.min.js"></script>
+   <script src="http://libs.baidu.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+   <link rel="stylesheet" href="css/common.css">
+   <script src="js/index1.js"></script>
+    <style>
+        #all-picture {
+            border:none;
+            width: 580px;
+            height: 328px;
+            background-image: url(../images/demo1.png);
+            position: absolute;
+            top: 210px;
+            left: 400px;
+            z-index: 2;
+        }
+    </style>
+</head>
+<body>
+  <div id="box2"> </div>
+  <div id="box" style="position: relative;">
+ <button type="button" onClick="javascript :history.back(-1);" style="float:right;margin-right:3em;margin-top:1.5em;width:45px; height:45px;background:url(images/backbtn.png);background-size:45px 45px;border:none;"></button>
+      <div id="all-picture" class="pic" >
+
+      </div>
+  <div id="is-picture" class="pic" style="border:none;">
+  <ul id="choujiangrenyuan" ></ul>
+	</div>
+	<div id="btn-kfj">
+	  <button id="button" type="button" onclick="start()" class="btn btn-success btn-default">第1次抽奖</button>
+	</div>
+  </div>
+
+  <!-- 模态框（Modal） -->
+  <div class="modal fade" id="myModal" tabindex="-1" role="dialog"  aria-labelledby="myModalLabel" aria-hidden="true">
+   <div class="modal-dialog">
+      <div class="modal-content">
+         <div class="modal-header">
+            <button type="button" class="close" 
+               data-dismiss="modal" aria-hidden="true">
+                  &times;
+            </button>
+            <h4 class="modal-title" id="myModalLabel">
+               是否重置？
+            </h4>
+         </div>
+         <div class="modal-body">
+            如果需要刷新后重置，请点击“确认”按钮后继续...
+         </div>
+         <div class="modal-footer">
+            <button type="button" class="btn btn-default" 
+               data-dismiss="modal">取消
+            </button>
+            <button type="button" class="btn btn-primary" data-dismiss="modal" onclick="reset()">
+               确认重置
+            </button>
+         </div>
+      </div><!-- /.modal-content -->
+  </div><!-- /.modal -->
+      </div>
+<!-- <div id="footer" style="width:100%;position:absolute; bottom:0px;text-align:center;"> -->
+						<!-- <span id="author" style="width:auto;font-size:2em;color:rgb(255,255,255);">&copy;上海商学院&bull;iOS开发者社团</span> -->
+					<!-- </div> -->
+</body>
+</html>	

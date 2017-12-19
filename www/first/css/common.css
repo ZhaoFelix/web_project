@@ -1,0 +1,45 @@
+	 body{
+	   margin:0;
+	   padding:0;
+	   color:#000;
+	   background:url("../images/bbg.png") no-repeat;
+	   background-size:100% 100%;
+	 }
+     #box{
+	   width:99%;
+	   height:745px;
+	   margin:0 auto;
+	   text-align:center;
+	   padding-top:20px;
+	   margin-top:-20px;
+	   z-index:999;
+	 }
+	
+	 .pic{
+	   margin:auto;
+	   /*border:10px #ccc solid;*/
+	   margin-bottom:20px;
+	   margin-top:20px;
+	   overflow:hidden;
+	   position:relative;
+	 }
+	 #all-picture{
+		 margin:0 auto;
+	   width:580px;
+	   height:328px;
+	   background-image:url("../images/demo.png");
+	 }
+	 #is-picture{
+       width:auto;
+	   height:150px;
+	   text-align:center;
+	   padding:0px 3px 3px 0px ;
+	   border:2px #fff solid;
+	 }
+	 .img-chosed{
+	   display:block;
+	   float:left;
+	 }
+	.btn-default {
+		margin-left:-6em;
+	}

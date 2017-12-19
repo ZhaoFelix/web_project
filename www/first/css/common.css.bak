@@ -1,0 +1,46 @@
+     .{
+	   margin:0px;
+	   padding:0px;
+	 }
+	 body{
+	   margin:0;
+	   padding:0;
+	   color:#000;
+	   background:url("../images/bbg.png") no-repeat;
+	   background-size:100% 100%;
+	 }
+     #box{
+	   width:100%;
+	   height:765px;
+	   margin:auto;
+	   text-align:center;
+	   padding-top:20px;
+	   margin-top:-20px;
+	   z-index:999;
+	 }
+	
+	 .pic{
+	   margin:auto;
+	   /*border:10px #ccc solid;*/
+	   margin-bottom:20px;
+	   margin-top:20px;
+	   overflow:hidden;
+	   position:relative;
+	 }
+	 #all-picture{
+	   width:580px;
+	   height:328px;
+	   background-image:url("../images/demo.png");
+	 }
+	 #is-picture{
+       width:auto;
+	   height:150px;
+	   text-align:center;
+	   padding:0px 3px 3px 0px ;
+	   border:2px #fff solid;
+	 }
+	 .img-chosed{
+	   display:block;
+	   float:left;
+	 }
+	

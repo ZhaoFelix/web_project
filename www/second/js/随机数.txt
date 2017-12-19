@@ -1,0 +1,16 @@
+
+<script type="text/javascript"> 
+var count=3000; 
+var original=new Array;//原始数组 
+//给原始数组original赋值 
+for (var i=0;i<count;i++){ 
+original[i]=i+1; 
+} 
+var d1=new Date().getTime(); 
+original.sort(function(){ return 0.5 - Math.random(); }); 
+for (var i=0;i<count;i++){ 
+document.write(original[i]+" , "); 
+} 
+
+</script> 
+
